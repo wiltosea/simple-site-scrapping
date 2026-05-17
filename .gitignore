@@ -1,0 +1,11 @@
+# Arquivos de configuração sensíveis (Senhas e URLs)
+config.cfg
+.env
+
+# Logs e arquivos temporários de execução
+*.log
+/tmp/
+
+# Arquivos temporários de sistema operacional (Mac/Windows)
+.DS_Store
+Thumbs.db

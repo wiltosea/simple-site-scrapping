@@ -1,0 +1,19 @@
+# Configurações do servidor SMTP
+# Exemplo para o Gmail: smtps://smtp.gmail.com:465
+# Exemplo para o Outlook/Hotmail: smtp://smtp.office365.com:587 (neste caso, mude --ssl-reqd no script se necessário, mas 465 é melhor se suportado)
+SMTP_SERVER="smtps://mail.seuservidor.com.br:465"
+
+# Credenciais de acesso ao servidor SMTP
+SMTP_USER="[EMAIL_ADDRESS]"
+# ATENÇÃO: Se usar Gmail, você não pode usar sua senha normal. 
+# Vá na sua conta Google e gere uma "Senha de Aplicativo" (App Password).
+SMTP_PASS="sua_senha_de_aplicativo"
+
+# Remetente e Destinatário
+EMAIL_FROM="seu_email_remetente@gmail.com"
+EMAIL_TO="destino@exemplo.com"
+
+API_URL="https://url.api.com.br"
+CURRENT_FILE="/tmp/url.api.com.br_current.json"
+PREVIOUS_FILE="/tmp/url.api.com.br_previous.json"
+EMAIL_SUBJECT="Modificacao detectada no site url.api.com.br"
