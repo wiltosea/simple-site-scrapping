@@ -9,3 +9,4 @@ config.cfg
 # Arquivos temporários de sistema operacional (Mac/Windows)
 .DS_Store
 Thumbs.db
+node_modules/
