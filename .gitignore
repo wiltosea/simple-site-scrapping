@@ -1,6 +1,7 @@
 # Arquivos de configuração sensíveis (Senhas e URLs)
 config.cfg
 .env
+node_modules/
 
 # Logs e arquivos temporários de execução
 *.log
